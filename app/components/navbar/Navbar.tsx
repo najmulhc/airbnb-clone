@@ -1,6 +1,7 @@
 import Container from "../Container";
 import Logo from "./Logo";
 import Search from "./Search";
+import UserMenu from "./UserMenu";
 
 const Navbar: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Navbar: React.FC = () => {
           <div className="flex flex-row items-center justify-between gap-4 mmd:gap-0">
             <Logo />
             <Search/>
+            <UserMenu/>
           </div>
         </Container>
       </div>
